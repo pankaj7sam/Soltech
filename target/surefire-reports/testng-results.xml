@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[======++++ Browser Session Started ++++======]]>
+    </line>
+    <line>
+      <![CDATA[======++++ Application Started ++++======]]>
+    </line>
+    <line>
+      <![CDATA[======++++ Brwoser Session Ended ++++======]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21392" started-at="2017-05-19T14:12:11Z" finished-at="2017-05-19T14:12:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21392" started-at="2017-05-19T14:12:11Z" finished-at="2017-05-19T14:12:32Z">
+      <class name="sol.tech.testcase.TestCases">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="setupDriver" is-config="true" duration-ms="12188" started-at="2017-05-19T10:12:11Z" finished-at="2017-05-19T10:12:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[======++++ Browser Session Started ++++======]]>
+            </line>
+            <line>
+              <![CDATA[======++++ Application Started ++++======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="soltechPager()[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="soltechPager" duration-ms="293" started-at="2017-05-19T10:12:23Z" finished-at="2017-05-19T10:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soltechPager -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="captureScreenshot" is-config="true" duration-ms="1268" started-at="2017-05-19T10:12:24Z" finished-at="2017-05-19T10:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=soltechPager status=SUCCESS method=TestCases.soltechPager()[pri:0, instance:sol.tech.testcase.TestCases@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="openPosition()[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="openPosition" duration-ms="1285" started-at="2017-05-19T10:12:25Z" finished-at="2017-05-19T10:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPosition -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="captureScreenshot" is-config="true" duration-ms="245" started-at="2017-05-19T10:12:26Z" finished-at="2017-05-19T10:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openPosition status=SUCCESS method=TestCases.openPosition()[pri:0, instance:sol.tech.testcase.TestCases@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="typeQA()[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="typeQA" duration-ms="1877" started-at="2017-05-19T10:12:26Z" finished-at="2017-05-19T10:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeQA -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="captureScreenshot" is-config="true" duration-ms="152" started-at="2017-05-19T10:12:28Z" finished-at="2017-05-19T10:12:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=typeQA status=SUCCESS method=TestCases.typeQA()[pri:0, instance:sol.tech.testcase.TestCases@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="clickOnQAEngineer()[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="clickOnQAEngineer" duration-ms="2220" started-at="2017-05-19T10:12:28Z" finished-at="2017-05-19T10:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnQAEngineer -->
+        <test-method status="PASS" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="captureScreenshot" is-config="true" duration-ms="233" started-at="2017-05-19T10:12:31Z" finished-at="2017-05-19T10:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnQAEngineer status=SUCCESS method=TestCases.clickOnQAEngineer()[pri:0, instance:sol.tech.testcase.TestCases@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:sol.tech.testcase.TestCases@17f6480]" name="closeApp" is-config="true" duration-ms="1611" started-at="2017-05-19T10:12:31Z" finished-at="2017-05-19T10:12:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[======++++ Brwoser Session Ended ++++======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- sol.tech.testcase.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

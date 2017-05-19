@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="utility.UtilityClass">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- utility.UtilityClass -->
+      <class name="com.nimbus.testcase.TestCases">
+        <methods>
+          <include name="ValidUser"/>
+          <include name="Disclaimer"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- com.nimbus.testcase.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
